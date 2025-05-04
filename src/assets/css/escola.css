@@ -1,0 +1,204 @@
+.bg-image {
+  background-image: url("../img/theme/login/login.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-image2 {
+  background-image: url("../img/theme/login/creat.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-image3 {
+  background-image: url("../img/theme/login/login.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-image4 {
+  background-image: url("../img/theme/icon/relatorio.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-image5 {
+  background-image: url("../img/theme/icon/alunos.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-image6 {
+  background-image: url("../img/theme/icon/ajuda.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-image7 {
+  background-image: url("../img/theme/icon/configuracao.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-image8 {
+  background-image: url("../img/theme/icon/turma.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-image9 {
+  background-image: url("../img/theme/icon/chamada.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.rounded {
+  border-radius: 50px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .btn-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.switch {
+  position: absolute;
+  margin-left: -9999px;
+  visibility: hidden;
+}
+
+.switch + label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+}
+
+.switch-shadow + label {
+  padding: 5px;
+  width: 40px;
+  height: 20px;
+  background-color: #dddddd;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.switch-shadow + label:before,
+.switch-shadow + label:after {
+  display: block;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  bottom: 1px;
+  content: "";
+}
+
+.switch-shadow + label:before {
+  right: 1px;
+  background-color: #007bff;
+  border-radius: 20px;
+  transition: all 0.4s;
+}
+
+.switch-shadow + label:after {
+  width: 20px;
+  background-color: #fff;
+  border-radius: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: all 0.4s;
+}
+
+.switch-shadow:checked + label:before {
+  background-color: #4e73df;
+}
+
+.switch-shadow:checked + label:after {
+  transform: translateX(20px);
+}
+
+.button-container {
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 767px) {
+  .print-button {
+    display: none;
+  }
+}
+
+.custom-alert {
+  font-size: 10px;
+}
+
+.floating-alert {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+}
+
+.loading-img {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+.loading-imgbut {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.inputStyle {
+  border: none;
+  border-bottom: 2px solid #70DBDB;
+  border-radius: 0;
+  width: 100%;
+  margin-left: 10px;
+}
+
+.buttonStyle {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+}
+
+.buttonStyle:hover {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+}
+
+.table-row {
+  border-bottom: 2px solid #70DBDB;
+}
+
+.cardSy {
+  border-radius: 30px;
+  overflow: hidden;
+  padding: 20px;
+}
