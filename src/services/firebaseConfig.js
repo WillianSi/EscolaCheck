@@ -3,13 +3,13 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAP78f9cvgxaTvVk8zab-gh8jEh2SH7cP8",
-  authDomain: "presenca-ccbe9.firebaseapp.com",
-  projectId: "presenca-ccbe9",
-  storageBucket: "presenca-ccbe9.appspot.com",
-  messagingSenderId: "235935148770",
-  appId: "1:235935148770:web:d9f1edc07752ce7342ccbb",
-  measurementId: "G-ZE4SNWLL7H"
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY_PRESENCA,
+  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN_PRESENCA,
+  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID_PRESENCA,
+  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET_PRESENCA,
+  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID_PRESENCA,
+  appId: process.env.REACT_APP_FIREBASE_APP_ID_PRESENCA,
+  measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID_PRESENCA
 };
 
 const app = initializeApp(firebaseConfig);
